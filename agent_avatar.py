@@ -11,8 +11,8 @@ import time
 import numpy as np
 
 
-openai.api_key = "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"
-os.environ["ELEVEN_API_KEY"] = "sk_4e1eb53a02a948e3a165c748c3045f1f5c4bee64f17512cf"
+openai.api_key = "key hidden"
+os.environ["ELEVEN_API_KEY"] = "key hidden"
 whisper_model = whisper.load_model("small")  
 
 def record_audio(
